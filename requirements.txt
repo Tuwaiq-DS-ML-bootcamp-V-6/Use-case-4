@@ -1,2 +1,3 @@
 plotly
 dtale
+plotly.graph_objects
