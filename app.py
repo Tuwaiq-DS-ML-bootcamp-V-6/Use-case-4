@@ -2,7 +2,6 @@ import streamlit as st
 import numpy as np
 import plotly.express as px
 import pandas as pd
-from scipy.stats import zscore
 import dtale as dt
 import plotly.graph_objects as go
 df=pd.read_csv("data_saudi_used_cars.csv")
