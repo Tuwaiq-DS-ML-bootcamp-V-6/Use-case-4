@@ -33,7 +33,7 @@ fig1.update_layout(
 )
 
 # Display the heatmap
-st.plotly_chart(fig1, use_container_width=True)
+st.plotly_chart(fig1,theme="streamlit", use_container_width=True)
 
 st.write("I began by counting all of the renters in each rental unit. For instance, there are more people renting cars in Riyadh than in other locations, which is to be expected given the city's population and status as a capital.")
 
@@ -53,7 +53,7 @@ fig.update_layout(
 )
 
 
-st.plotly_chart(fig, use_container_width=True)
+st.plotly_chart(fig,theme="streamlit", use_container_width=True)
 st.write("Our exploration dives into two key aspects of the Saudi used car market:")
 st.write("Price Spectrum:")
 st.write("We'll unveil the spread of used car prices in the dataset. This will show you the range of what you can expect to pay for a pre-owned vehicle in Saudi Arabia.")
@@ -75,7 +75,7 @@ fig2.update_layout(
 )
 
 
-st.plotly_chart(fig2, use_container_width=True)
+st.plotly_chart(fig2, use_container_width=True,theme="streamlit")
 
 st.write('Conclusion:')
 st.write("There are three factors that affect the price of a price of a used car:")
