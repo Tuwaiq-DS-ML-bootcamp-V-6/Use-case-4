@@ -78,7 +78,7 @@ fig2.update_layout(
 st.plotly_chart(fig2, use_container_width=True,theme="streamlit")
 
 st.write('Conclusion:')
-st.write("There are three factors that affect the price of a price of a used car:")
+st.write("There are three factors that affect the price of a used car")
 st.write(".  Mileage")
 st.write(".  Engine size")
 st.write(".  Year of the car")
