@@ -1,5 +1,8 @@
 # Use-case-4
 
+[Explore main repo](https://github.com/ReyadGH/streamlit-use-case)
+
+[Explore the app](https://reyadgh.streamlit.app/)
 
 _Riyadh Alghamdi_
 
